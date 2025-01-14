@@ -1,0 +1,67 @@
+.project-description2-content {
+    margin-left: 0;
+}
+
+.custom-text-arboreta {
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.arboreta-jumbotron-container {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
+.two-flex-two-image-container {
+    height: auto;
+}
+
+.two-flex-two-image-arboreta {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.two-flex-image-container3-arboreta {
+    width: 55%;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.two-flex-image-container2-arboreta {
+    width: 45%;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+@media (max-width: 768px) {
+    .custom-text-arboreta {
+        width: 90%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 15px;
+    }
+
+    .arboreta-jumbotron-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .two-flex-two-image-arboreta {
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+    .two-flex-image-container3-arboreta,
+    .two-flex-image-container2-arboreta {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

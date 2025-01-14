@@ -1,0 +1,118 @@
+.two-flex-image-container2-nefis {
+    width: 50%;
+}
+
+.two-flex-image-container3-nefis {
+    width: 50%;
+}
+
+.jumbotron-nefis {
+    height: auto;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.custom-margin-nefis {
+    margin-bottom: 100px;
+}
+
+.two-flex-nefis {
+    margin-top:100px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+
+.two-flex-image-container-nefis {
+    /* background-color: red; */
+    width: 50%;
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+}
+
+.two-flex-image-nefis {
+    display: block; 
+    width: 60%; 
+    height: auto; 
+}
+
+.logo-concept-nefis {
+    margin: auto;
+    width: 40%;
+    padding: 10px;
+    margin-left: 20px;
+}
+.img-jumbo-nefis {
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+    display: block;
+}
+.jumbotron-nefis2 {
+    height: auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+    /* background-color: red; */
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+@media screen and (max-width: 768px) {
+    .two-flex-nefis {
+        flex-direction: column; 
+        margin-top: 50px; 
+        margin-bottom: 50px;
+    }
+
+    .two-flex-image-container-nefis,
+    .two-flex-image-container2-nefis,
+    .two-flex-image-container3-nefis {
+        width: 100%; 
+        margin-bottom: 20px; 
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+    }
+
+    .two-flex-image-nefis {
+        width: 80%; 
+        height: auto; 
+    }
+
+    .jumbotron-nefis,
+    .jumbotron-nefis2 {
+        width: 90%; 
+        margin: 20px auto; 
+        flex-direction: column; 
+    }
+
+    .img-jumbo-nefis {
+        width: 100%; 
+        height: auto; 
+    }
+
+    .custom-margin-nefis {
+        margin-bottom: 50px;
+    }
+
+    .logo-concept-nefis {
+        width: 60%;
+        padding: 5px;
+        margin: auto;
+        margin-bottom: 20px; 
+    }
+}

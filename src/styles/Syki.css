@@ -1,0 +1,31 @@
+.project-introduction-syki{
+    border-top: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    height: 32vh;
+    overflow: hidden;
+    margin-bottom:10px;
+}
+.custom-paragraph-syki {
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+    .project-introduction-syki {
+        flex-direction: column;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .custom-paragraph-syki {
+        width: 90%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 15px;
+    }
+}

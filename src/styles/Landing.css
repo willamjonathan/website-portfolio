@@ -1,0 +1,55 @@
+.cover {
+    font-family: 'Neue Haas Grotesk Text Pro';
+    position: relative;
+    width: 100%;
+    max-width: 1440px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.landing-section{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left:40%;
+    top:40%;
+    font-size:64px;
+}
+.title-icon{
+    display: flex;
+    flex-direction:row;
+}
+.landing-icon{
+    width: 55px;
+    height: 54px;
+}
+
+.work,
+.info,
+.title{
+    font-weight: 600;
+}
+.custom-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.custom-link:hover {
+    color: #000;
+    cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+    .landing-section {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        font-size: 16px; 
+        transform: translate(-50%, -50%);
+    }
+    .landing-icon{
+        width: 15px;
+        height: 14px;
+    }
+}

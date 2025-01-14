@@ -1,0 +1,95 @@
+.works-section{
+    height:auto;
+    overflow: hidden;
+    font-size: 16px;
+    font-family: 'Neue Haas Grotesk Text Pro';
+    width:98%;
+    margin: 0 auto;
+
+}
+
+.project-section{
+    display: flex;
+    flex-direction: row;
+    height:30vh;
+    padding:10px;
+    border-top:1px solid black;
+}
+.project-section2{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    /* background-color: red; */
+}
+.project-id{
+    /* background-color: blue; */
+    width: 10%;
+
+}
+.project-name{
+    /* background-color: red; */
+    width:30%;
+    font-size:24px;
+    font-weight:600;
+}
+.project-description{
+    width:30%;
+
+}
+.komma.workpicture, .komma-work {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+}
+
+.project-picture {
+    /* width: 500px; */
+    overflow: hidden;
+    margin-right: auto;
+    /* height: auto; */
+}
+
+.info-back-workpage {
+    position: fixed;
+    bottom: 10%;
+    left: 1%;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+    .project-section {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+    }
+
+    .project-section2 {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .project-id,
+    .project-name,
+    .project-description {
+        width: 100%;
+    }
+
+    .komma.workpicture, 
+    .komma-work {
+        display: flex;
+        justify-content: center;
+        margin: 15px auto;
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+    }
+
+    .project-picture {
+        width: auto;
+        max-width: 500px;
+        height: auto;
+        margin: 0 auto;
+        text-align: center;
+    }
+}

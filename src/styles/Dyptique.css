@@ -1,0 +1,63 @@
+.two-flex-dyptique {
+    display: flex;
+    flex-direction: row; 
+    width: 100%; 
+    align-items: center;
+    justify-content: center;
+    margin-bottom:100px;
+}
+
+.two-flex-image-container-dyptique {
+width: 50%;
+
+}
+.two-flex-image-dyptique{
+    
+    width: 100%; 
+    height: 100%;
+    object-fit: contain; 
+
+}
+.logo-concept-dyptique{
+    margin-top:auto;
+    width: 50%;
+    padding: 10px;
+    margin-left: 20px;
+}
+.custom-margin1{
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+
+
+@media (max-width: 768px) {
+    .two-flex-dyptique {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+    .two-flex-image-container-dyptique {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .two-flex-image-dyptique {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .logo-concept-dyptique {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+        padding: 10px;
+    }
+
+    .custom-margin1 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}

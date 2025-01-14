@@ -1,0 +1,220 @@
+.project-detail-section {
+    font-size: 16px;
+    font-family: 'Neue Haas Grotesk Text Pro';
+    width: 98%;
+    margin: 0 auto;
+    
+}
+
+.project-introduction {
+    border-top: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    height: 28vh;
+    overflow: hidden;
+    padding:10px;
+}
+.project-position-name-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.project-position2 {
+    width: 50%;
+}
+
+.project-name2 {
+    width: 70%;
+    height: auto;
+    font-size: 36px;
+    font-weight: 600;
+}
+.project-description2{
+    width:100%;
+    /* background-color: red; */
+}
+
+.jumbotron {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.img-jumbo {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.img-jumbo2 {
+    object-fit: contain;
+    height: auto;
+    width: 100%;
+}
+
+.two-flex {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.two-flex-image-container {
+    width: 45%;
+    padding: 10px;
+}
+
+.two-flex-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.logo-concept {
+    width: 45%;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.gradient {
+    width: 45%;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.two-flex-two-image {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 100px;
+}
+
+.two-flex-image-container2,
+.two-flex-image-container3 {
+    display: flex;
+}
+
+.two-flex-image-container2 {
+    width: 45%;
+}
+
+.two-flex-image-container3 {
+    width: 55%;
+}
+
+.two-flex-image2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .project-detail-section{
+        font-size: 14px;
+
+        margin:auto;
+    }
+    .project-introduction {
+        flex-direction: column;
+        height: auto;
+    }
+    .project-position-name-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; 
+        align-items: center; 
+        width: 100%;
+    }
+
+    .project-position2 {
+        width: auto;
+        text-align: left;
+    }
+
+    .project-name2 {
+        width: auto;
+        text-align: right;
+        font-size: 18px;
+    }
+    .jumbotron {
+        flex-direction: column;
+        justify-content: flex-start;
+        height: auto;
+    }
+
+    .img-jumbo {
+        /* apa 50 yeach */
+        height: 30vh;
+        object-fit: contain;
+    }
+
+    .two-flex {
+        flex-direction: column;
+    }
+
+    .two-flex-image-container {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .logo-concept {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .gradient {
+        width: 80%;
+    }
+
+    .two-flex-two-image {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .two-flex-image-container2,
+    .two-flex-image-container3 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .project-detail-section {
+        font-size: 14px;
+    }
+
+    .project-name2 {
+        font-size: 16px;
+    }
+
+    .jumbotron {
+        margin-bottom: 20px;
+    }
+
+    .img-jumbo {
+        height: auto;
+        width: 100%;
+    }
+
+    .gradient {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .two-flex-image2 {
+        object-fit: contain;
+    }
+
+    .two-flex-image-container {
+        padding: 5px;
+    }
+}
