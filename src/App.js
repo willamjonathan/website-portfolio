@@ -10,11 +10,9 @@ import Rx from './components/Rx';
 import Syki from './components/Syki';
 import Arboreta from './components/Arboreta';
 
-
-
 function App() {
     return (
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
             <Routes>
                 <Route path="/" element={<Landing />} />
                 <Route path="/info" element={<Info />} />
@@ -25,10 +23,9 @@ function App() {
                 <Route path="/rx" element={<Rx />} />
                 <Route path="/syki" element={<Syki />} />
                 <Route path="/arboreta" element={<Arboreta />} />
-
-
             </Routes>
         </Router>
     );
 }
+
 export default App;
