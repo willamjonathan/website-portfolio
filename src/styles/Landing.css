@@ -27,7 +27,8 @@
 .work,
 .info,
 .title{
-    font-weight: 600;
+    /* 600 */
+    font-weight: 500;
 }
 .custom-link {
     text-decoration: none;

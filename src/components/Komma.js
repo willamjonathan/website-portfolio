@@ -59,7 +59,7 @@ function Komma() {
                     <img src={five_komma} className="komma-jumbotron img-jumbo2" alt="Img" />
                 </div>
                 <div className='gradient'>
-                    gradients<br></br>
+                <b style={{ fontSize: '20px' }}>mr. yagiz</b><br></br>
                     <br></br>
                     Symbolise energy and endless possibilities and growth. Gradients also contains multiple continuous colours, this defines KOMMA’s inclusive approach to experiences to connect people.
                 </div>

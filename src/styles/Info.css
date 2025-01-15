@@ -22,13 +22,15 @@
     flex-direction: column;
 }
 .letsgetintouch{
-    font-weight: 700;
+    /* 700 */
+    font-weight: 500;
    
 }
 .info-back {
     position: fixed;
     bottom: 10px; 
-    font-weight: 600;
+    /* 600 */
+    font-weight: 500;
     padding: 10px;
 }
 @media (max-width: 768px) {

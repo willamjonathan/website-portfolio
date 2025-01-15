@@ -29,7 +29,7 @@ function Works() {
                             <Link to="/komma" className="custom-link">
                                 komma
                             </Link></div>
-                        <div className="project-description">creative direction
+                        <div className="project-description">creative direction<br/>
                             illustration</div>
                     </div>
                     <div className="project-picture">

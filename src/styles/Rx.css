@@ -10,8 +10,8 @@
 }
 
 .two-flex-text-rx-subcontent1 {
-
-    font-weight: 700;
+    /* 700 */
+    font-weight: 500;
     display: flex;
     flex-direction: column;
     width: 95%;
@@ -60,7 +60,8 @@
     align-items: center;
     justify-content: center;
     margin-top:10px;
-    font-weight:600;
+    /* 600 */
+    font-weight:500;
     /* margin-bottom:10px; */
 }
 

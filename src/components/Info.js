@@ -23,8 +23,12 @@ function Info() {
                 let’s get in touch!
                 </div>
                 <div className='contact'>
-                jesslyngerardhine.j@gmail.com <br/>
+                {/* https://www.instagram.com/j____isuals?igsh=dzRwbTBuNGwxaWZj */}
+               
+                <a href="mailto:jesslyngerardhine.j@gmail.com " className="custom-link" rel="noopener noreferrer">jesslyngerardhine.j@gmail.com </a> <br/>
+                <a href="https://www.instagram.com/j____isuals?igsh=dzRwbTBuNGwxaWZj" className="custom-link" target="_blank" rel="noopener noreferrer">
                 @j____isuals
+                    </a>
             </div>
             </div>
             </div>
